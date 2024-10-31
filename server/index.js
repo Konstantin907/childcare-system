@@ -7,6 +7,12 @@ import usersRoutes from './routes/users.route/users.route.js'
 import parentRoutes from './routes/parents.route/parents.route.js'
 import teacherRoutes from './routes/teacher.route/teacher.route.js'
 
+import path from 'path'
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
 dotenv.config({ path: '.env' })
 const app = express();
 
@@ -36,6 +42,11 @@ app.use(express.json());
 app.use('/api/auth', usersRoutes);
 app.use('/api/parent', parentRoutes);
 app.use('/api/teacher', teacherRoutes);
+
+// using client app
+app.use(express.static(path.join(__dirname, '/client/dist')));
+// client renderign for any path:
+app.get('*',(req, res)=> res.sendFile(path.join(__dirname, '/client/dist/index.html')))
 
 
 app.listen(PORT,()=> {
