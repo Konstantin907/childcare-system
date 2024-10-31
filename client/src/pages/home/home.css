@@ -1,0 +1,81 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+}
+.homeHeading{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+/* test */
+.homeHeadingText{
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.choosing{
+    font-size: larger;
+    letter-spacing: 2px;
+    color: #8f8686;
+}
+/* btn div */
+.buttonModals{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+/* #253568 */
+/* buttons styling */
+.parent{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #253568;
+    color: #fff;
+    border-radius: 20px;
+}
+.parent:hover{
+    background-color: #253568;
+    transition: 1s;
+    color: #fff;
+}
+.teacher{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #FFA500;
+    color: #fff;
+    border-radius: 20px;
+}
+.teacher:hover{
+    background-color: #FFA500;
+    transition: 1s;
+    color: #fff;
+}
+.admin{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #EFCF50;
+    color: #fff;
+    border-radius: 20px;
+}
+.admin:hover{
+    background-color: #EFCF50;
+    transition: 1s;
+    color: #fff;
+}
+.btn{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+/* .btn{
+    background-color: #253568;
+    transition: 1s;
+    color: #fff;
+} */

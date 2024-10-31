@@ -1,0 +1,33 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+.logoLink{
+    text-decoration: none;
+}
+.logout{
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(228, 228, 221);
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: antiquewhite;
+    transition: 1s all;
+}
+.navbarBtn{
+    display: flex;
+    gap: 20px;
+}

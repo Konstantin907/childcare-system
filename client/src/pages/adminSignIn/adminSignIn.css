@@ -1,0 +1,92 @@
+/* adminSignIn.css */
+
+.adminContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .isAdminForm {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .otp-area {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .otp-area input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .otherInputs {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .otherInputs label{
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .emailInput {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+  .loginBtn{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: medium;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+  }
+
+  .parentBtn{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #efae54;
+    color: #fff;
+    width: 220px;
+    font-size: medium;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+  }
+
+  .parentBtn:hover{
+    background-color: #e4a750
+  }
+  
