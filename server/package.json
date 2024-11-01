@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "nodemon index.js",
     "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
   },
   "keywords": [],
